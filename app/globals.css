@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;500;600;700;800&family=Caveat:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { font-family: 'Nunito', sans-serif; background: #fefdf8; color: #2d2a22; }
+::selection { background: #bfe0f2; color: #1b3a23; }
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
